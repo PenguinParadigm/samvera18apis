@@ -19,15 +19,15 @@ This bootcamp is a registration-only workshop as part of [Samvera Connect 2018](
 
 Time          | Topic                                           | Link(s)
 ------------- | ----------------------------------------------- | ------------------------------------------
-10-10:30      | Bootcamp Introduction, Logistics, Goals         | N/A (just follow slides)
-10:30-11      | Designing our API (ReST, PCDM, Swagger)         | [Design.md](https://github.com/PenguinParadigm/samvera18apis/blob/master/Design.md)
-*11-11:10*    | *coffee break*                                  |
-11:10-12:30   | Developing our API (Go, Go-Swagger, Localstack) |
-12:30-13:30   | Lunch Break (on your own)                       |
-13:30-14:20   | Deploying our API (Docker)                      |
-*14:20-14:30* | *coffee break*                                  |
-14:30-15:30   | Deploying our API (AWS)                         |
-15:30-16      | Conclusion & Bootcamp Retrospective             |
+9-9:30        | Introduction, Logistics, Goals                  | N/A (just follow slides)
+9:30-10:15    | Designing our API (ReST, PCDM, OAS)             | [Design.md](https://github.com/PenguinParadigm/samvera18apis/blob/master/Design.md)
+*10:15-10:30* | *break*                                         |
+10:30-12      | Developing our API (Go, Go-Swagger, Localstack) | [Develop.md](https://github.com/PenguinParadigm/samvera18apis/blob/master/Develop.md)
+12-14:00      | Lunch Break (on your own)                       |
+14:00-14:45   | Deploying our API (Docker)                      |
+*14:45-15*    | *break*                                         |
+15:00-16:30   | Deploying our API (AWS)                         |
+16:30-17      | Conclusion & Workshop Retrospective             |
 
 ## Our Expectations of You
 
