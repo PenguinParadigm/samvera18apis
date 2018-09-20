@@ -45,7 +45,7 @@ We request that all participants bring a laptop with internet connection & moder
 - installed the latest, stable version (18.06.1-ce) of [Docker Community Edition](https://www.docker.com/community-edition);
 - installed latest, stable version (1.11) of [Go](https://golang.org/doc/install#install) & [set up your Go workspace](https://github.com/sul-dlss-labs/taco#go-local-development-setup).
 - set up a [free AWS account](https://aws.amazon.com/free/) & [awscli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) connected to that free account.
-- installed [localstack](https://github.com/localstack/localstack#installing) (this requires python, sorry) for use in your Go workspace.
+- pulled down & can run [this localstack docker image](https://hub.docker.com/r/localstack/localstack/) for use in your Go workspace.
 
 **If you're short on time or other needs, you need at least Go, localstack, and docker for following along with local development.** We will use our lunch break to help folks catch up or debug these installation requirements as we are able, though the morning requires Go be set up.
 
