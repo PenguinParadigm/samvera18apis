@@ -54,8 +54,8 @@ If you have any issues with the above, please contact us ASAP using the [communi
 ## Contact Before, During, After the Bootcamp
 
 If you have questions or concerns leading up to or after the bootcamp, please ask in the #taco-workshop channel on the Samvera Slack or open an issue on this GitHub repository, particularly with any questions dealing with workshop preparation or any installation issues. This allows multiple workshop leaders to respond as able, and other participants can also learn.
-- Open an issue [here](https://github.com/PenguinParadigm/samvera18apis/issues);
+- Join our [#taco-workshop Samvera Slack channel](https://samvera.slack.com/messages/taco-workshop/). (Don't have an account? [Sign up!](http://slack.samvera.org))
+- Open an issue [here](https://github.com/PenguinParadigm/samvera18apis/issues) (free Github account required)
 
-Both require that you login or create a free account with GitHub.
 
 During the workshop, we will indicate the best ways to get help or communicate a question/comment - however, this bootcamp is intended to be informal, so feel free to speak up or indicate you have a question at any time.
