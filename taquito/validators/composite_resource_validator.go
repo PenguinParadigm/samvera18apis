@@ -1,8 +1,8 @@
 package validators
 
 import (
-	"github.com/cmh2166/elag18apis/taquito/datautils"
-	"github.com/cmh2166/elag18apis/taquito/generated/models"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/models"
 )
 
 type compositeResourceValidator struct {

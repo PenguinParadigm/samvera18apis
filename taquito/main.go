@@ -6,14 +6,14 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/cmh2166/elag18apis/taquito/aws_session"
-	"github.com/cmh2166/elag18apis/taquito/config"
-	"github.com/cmh2166/elag18apis/taquito/db"
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi"
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi/operations"
-	"github.com/cmh2166/elag18apis/taquito/handlers"
-	"github.com/cmh2166/elag18apis/taquito/identifier"
-	"github.com/cmh2166/elag18apis/taquito/middleware"
+	"github.com/PenguinParadigm/samvera18apis/taquito/aws_session"
+	"github.com/PenguinParadigm/samvera18apis/taquito/config"
+	"github.com/PenguinParadigm/samvera18apis/taquito/db"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/taquito/handlers"
+	"github.com/PenguinParadigm/samvera18apis/taquito/identifier"
+	"github.com/PenguinParadigm/samvera18apis/taquito/middleware"
 	"github.com/justinas/alice"
 )
 

@@ -5,10 +5,10 @@ package main
 import (
 	"log"
 
-	"github.com/cmh2166/elag18apis/simpleDev/generated/models"
-	"github.com/cmh2166/elag18apis/simpleDev/generated/restapi"
-	"github.com/cmh2166/elag18apis/simpleDev/generated/restapi/operations"
-	"github.com/cmh2166/elag18apis/simpleDev/handlers"
+	"github.com/PenguinParadigm/samvera18apis/simpleDev/generated/models"
+	"github.com/PenguinParadigm/samvera18apis/simpleDev/generated/restapi"
+	"github.com/PenguinParadigm/samvera18apis/simpleDev/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/simpleDev/handlers"
 	"github.com/go-openapi/loads"
 )
 

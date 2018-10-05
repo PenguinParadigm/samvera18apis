@@ -2,7 +2,7 @@ package validators
 
 import (
 	"github.com/santhosh-tekuri/jsonschema"
-	"github.com/cmh2166/elag18apis/taquito/generated/models"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/models"
 )
 
 func buildErrors(validationError *jsonschema.ValidationError) *models.ErrorResponseErrors {

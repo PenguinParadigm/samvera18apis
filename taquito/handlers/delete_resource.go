@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/cmh2166/elag18apis/taquito/db"
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/taquito/db"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi/operations"
 	"github.com/go-openapi/runtime/middleware"
 )
 

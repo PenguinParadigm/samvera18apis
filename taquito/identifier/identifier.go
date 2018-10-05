@@ -3,8 +3,8 @@ package identifier
 import (
 	"log"
 
-	"github.com/cmh2166/elag18apis/taquito/config"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/config"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 // Service the interface for a service that mints identifiers

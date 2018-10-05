@@ -3,7 +3,7 @@ package db
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 // RetrieveVersion - return the resource with the particular externalID and version

@@ -13,7 +13,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/cmh2166/elag18apis/taquito/generated/models"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/models"
 )
 
 // NewDepositResourceParams creates a new DepositResourceParams object

@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/cmh2166/elag18apis/taquito/aws_session"
-	"github.com/cmh2166/elag18apis/taquito/config"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/aws_session"
+	"github.com/PenguinParadigm/samvera18apis/taquito/config"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 func TestRetrieveVersion(t *testing.T) {

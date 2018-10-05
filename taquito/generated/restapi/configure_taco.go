@@ -11,8 +11,8 @@ import (
 	middleware "github.com/go-openapi/runtime/middleware"
 	graceful "github.com/tylerb/graceful"
 
-	"github.com/cmh2166/elag18apis/taquito/authorization"
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/taquito/authorization"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi/operations"
 )
 
 // This file is safe to edit. Once it exists it will not be overwritten

@@ -3,12 +3,12 @@ package handlers
 import (
 	"log"
 
-	"github.com/cmh2166/elag18apis/taquito/authorization"
-	"github.com/cmh2166/elag18apis/taquito/db"
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi"
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi/operations"
-	"github.com/cmh2166/elag18apis/taquito/identifier"
-	"github.com/cmh2166/elag18apis/taquito/validators"
+	"github.com/PenguinParadigm/samvera18apis/taquito/authorization"
+	"github.com/PenguinParadigm/samvera18apis/taquito/db"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/taquito/identifier"
+	"github.com/PenguinParadigm/samvera18apis/taquito/validators"
 	"github.com/go-openapi/loads"
 )
 

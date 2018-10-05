@@ -1,7 +1,7 @@
 package identifier
 
 import (
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 type TypeSpecificIDService struct {

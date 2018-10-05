@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/cmh2166/elag18apis/taquito/datautils"
-	"github.com/cmh2166/elag18apis/taquito/db"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/db"
 )
 
 func testResource(file string) *datautils.Resource {
