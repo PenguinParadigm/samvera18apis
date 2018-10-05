@@ -1,18 +1,13 @@
 .PHONY: test
 
-PROJECT_UNIT_TESTS     =$(shell go list ./... | grep -v test | grep -v db)
-PROJECT_INT_TESTS      =$(shell go list ./db)
-PROJECT_E2E_TESTS      =$(shell go list ./test)
-LOCALSTACK_SERVICES    =dynamodb,s3
+LOCALSTACK_SERVICES    =dynamodb
 LOCAL_ENDPOINT_HOST    ?=localhost
 LOCAL_ENDPOINT         =--endpoint-url=http://${LOCAL_ENDPOINT_HOST}
 DYNAMO_ENDPOINT        =${LOCAL_ENDPOINT}:4569
 PROJ_TABLE_NAME        =resources
-PROJ_BUCKET_NAME       =taco-deposited-files
-PROJ_AWS_REGION        =us-east-1
 PROJ_AWS_ACCESS_KEY_ID =999999
 PROJ_AWS_SECRET_KEY    =999999
-PROJ_ENV_VARS          =AWS_REGION=${PROJ_AWS_REGION} AWS_ACCESS_KEY_ID=${PROJ_AWS_ACCESS_KEY_ID} AWS_SECRET_ACCESS_KEY=${PROJ_AWS_SECRET_KEY}
+PROJ_ENV_VARS          =AWS_ACCESS_KEY_ID=${PROJ_AWS_ACCESS_KEY_ID} AWS_SECRET_ACCESS_KEY=${PROJ_AWS_SECRET_KEY}
 
 default: dependencies resources
 
@@ -23,10 +18,10 @@ dependencies:
 resources: table
 
 table:
-	$(eval TABLE=$(shell aws $(DYNAMO_ENDPOINT) dynamodb list-tables | jq '.TableNames[0] // ""'))
+	$(eval TABLE=$(shell $(PROJ_ENV_VARS) aws $(DYNAMO_ENDPOINT) dynamodb list-tables | jq '.TableNames[0] // ""'))
 	@if [[ $(TABLE) != "" ]]; \
 	  then echo "$(TABLE) table found"; \
-		else aws $(DYNAMO_ENDPOINT) dynamodb create-table --table-name $(PROJ_TABLE_NAME) \
+		else $(PROJ_ENV_VARS) aws $(DYNAMO_ENDPOINT) dynamodb create-table --table-name $(PROJ_TABLE_NAME) \
 				--attribute-definitions AttributeName=tacoIdentifier,AttributeType=S \
 				AttributeName=externalIdentifier,AttributeType=S \
 				AttributeName=version,AttributeType=N \
