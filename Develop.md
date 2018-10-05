@@ -35,7 +35,7 @@ For other installs, follow the instructions here (cURL a shell script & run it, 
 
 ## Swagger & Go
 
-This presumes you [already have `go` installed on your machine](https://github.com/cmh2166/elag18apis/tree/master#technical-prep) and are running the commands in this repository within your Go working directory.
+This presumes you [already have `go` installed on your machine](https://github.com/PenguinParadigm/samvera18apis/tree/master#technical-prep) and are running the commands in this repository within your Go working directory.
 
 ### Install Go-Swagger
 

@@ -3,8 +3,8 @@ package handlers
 import (
 	"time"
 
-	"github.com/cmh2166/elag18apis/simpleDev/generated/models"
-	"github.com/cmh2166/elag18apis/simpleDev/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/simpleDev/generated/models"
+	"github.com/PenguinParadigm/samvera18apis/simpleDev/generated/restapi/operations"
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/strfmt"
 	"github.com/google/uuid"

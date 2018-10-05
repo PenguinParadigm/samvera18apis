@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/sul-dlss-labs/identifier-service/generated/client"
-	"github.com/cmh2166/elag18apis/taquito/config"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/config"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 type remoteIdentifierService struct {

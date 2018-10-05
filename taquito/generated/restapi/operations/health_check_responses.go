@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/cmh2166/elag18apis/taquito/generated/models"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/models"
 )
 
 // HealthCheckOKCode is the HTTP code returned for type HealthCheckOK

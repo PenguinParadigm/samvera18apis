@@ -3,7 +3,7 @@ package db
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 // Insert create a row in dynamodb

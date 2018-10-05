@@ -8,7 +8,7 @@ package operations
 import (
 	"net/http"
 
-	"github.com/cmh2166/elag18apis/taquito/authorization"
+	"github.com/PenguinParadigm/samvera18apis/taquito/authorization"
 	middleware "github.com/go-openapi/runtime/middleware"
 )
 

@@ -20,7 +20,7 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	graceful "github.com/tylerb/graceful"
 
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi/operations"
 )
 
 const (

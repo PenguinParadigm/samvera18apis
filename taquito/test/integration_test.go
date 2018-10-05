@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/buger/jsonparser"
-	"github.com/cmh2166/elag18apis/taquito/config"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/config"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 	baloo "gopkg.in/h2non/baloo.v3"
 	"gopkg.in/h2non/gentleman.v2/plugins/multipart"
 )

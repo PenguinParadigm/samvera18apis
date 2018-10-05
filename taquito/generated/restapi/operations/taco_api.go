@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cmh2166/elag18apis/taquito/authorization"
+	"github.com/PenguinParadigm/samvera18apis/taquito/authorization"
 	errors "github.com/go-openapi/errors"
 	loads "github.com/go-openapi/loads"
 	runtime "github.com/go-openapi/runtime"

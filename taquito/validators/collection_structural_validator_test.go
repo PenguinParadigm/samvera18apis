@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 func testCollectionResource(members []string) *datautils.Resource {

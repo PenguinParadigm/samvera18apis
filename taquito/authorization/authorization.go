@@ -1,7 +1,7 @@
 package authorization
 
 import (
-	"github.com/cmh2166/elag18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
 )
 
 // Service can answer queries about whether an agent can take a specific action

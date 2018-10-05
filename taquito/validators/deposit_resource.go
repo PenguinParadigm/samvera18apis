@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/santhosh-tekuri/jsonschema"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
-	"github.com/cmh2166/elag18apis/taquito/db"
-	"github.com/cmh2166/elag18apis/taquito/generated/models"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/db"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/models"
 )
 
 // DepositResourceValidator validates the deposit resource request

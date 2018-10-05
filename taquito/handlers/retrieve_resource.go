@@ -4,10 +4,10 @@ import (
 	"log"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/cmh2166/elag18apis/taquito/authorization"
-	"github.com/cmh2166/elag18apis/taquito/datautils"
-	"github.com/cmh2166/elag18apis/taquito/db"
-	"github.com/cmh2166/elag18apis/taquito/generated/restapi/operations"
+	"github.com/PenguinParadigm/samvera18apis/taquito/authorization"
+	"github.com/PenguinParadigm/samvera18apis/taquito/datautils"
+	"github.com/PenguinParadigm/samvera18apis/taquito/db"
+	"github.com/PenguinParadigm/samvera18apis/taquito/generated/restapi/operations"
 )
 
 // NewRetrieveResource will query DynamoDB with ID for Resource JSON
