@@ -41,9 +41,13 @@ We also ask that you come willing to take part and help out where you may have e
 
 We request that all participants bring a laptop with internet connection & modern web browser. On that laptop, please already have:
 
-- our [workshop GitHub repository](https://github.com/PenguinParadigm/samvera18apis) on your computer (with mechanism to update / pull down latest changes on Monday morning).
+
 - installed the latest, stable version (18.06.1-ce) of [Docker Community Edition](https://www.docker.com/community-edition);
 - installed latest, stable version (1.11) of [Go](https://golang.org/doc/install#install) & [set up your Go workspace](https://github.com/sul-dlss-labs/taco#go-local-development-setup).
+- our [workshop GitHub repository](https://github.com/PenguinParadigm/samvera18apis) on your computer (with mechanism to update / pull down latest changes on Tuesday morning).
+  - `mkdir -p $GOPATH/src/github.com/PenguinParadigm`
+  - `cd $GOPATH/src/github.com/PenguinParadigm`
+  - `git clone https://github.com/PenguinParadigm/samvera18apis.git`
 - set up a [free AWS account](https://aws.amazon.com/free/) & [awscli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) connected to that free account.
 - pulled down & can run [this localstack docker image](https://hub.docker.com/r/localstack/localstack/) for use in your Go workspace.
 
