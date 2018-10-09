@@ -50,6 +50,7 @@ We request that all participants bring a laptop with internet connection & moder
   - `git clone https://github.com/PenguinParadigm/samvera18apis.git`
 - set up a [free AWS account](https://aws.amazon.com/free/) & [awscli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) connected to that free account.
 - pulled down & can run [this localstack docker image](https://hub.docker.com/r/localstack/localstack/) for use in your Go workspace.
+- installed [jq](https://stedolan.github.io/jq/)
 
 **If you're short on time or other needs, you need at least Go, localstack, and docker for following along with local development.** We will use our lunch break to help folks catch up or debug these installation requirements as we are able, though the morning requires Go be set up.
 
