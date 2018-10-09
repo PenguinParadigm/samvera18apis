@@ -58,7 +58,7 @@
             }
           },
           "500": {
-            "description": "This resource could be created at this time."
+            "description": "This resource could not be created at this time."
           }
         }
       }
