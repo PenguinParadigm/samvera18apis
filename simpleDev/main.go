@@ -28,6 +28,7 @@ func createServer(port int) *restapi.Server {
 		return &models.Agent{SunetID: &identifier}, nil
 	}
 	api.DepositResourceHandler = handlers.NewDepositResource()
+	api.RetrieveResourceHandler = handlers.NewRetrieveResource()
 	server := restapi.NewServer(api)
 
 	// set the port this service will be run on
