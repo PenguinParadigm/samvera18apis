@@ -4,23 +4,23 @@
 
 1. Group: Go refresher (overview / pros / cons / setup)
 2. SimpleDev Work
-    3. Group: Go dependencies (overview / pros / cons / setup)
+    1. Group: Go dependencies (overview / pros / cons / setup)
     2. Individual / Pairs: Check your Go Environment, that this repository is within it, & add dependencies
-    6. Group: `Go-Swagger` review (overview / usage)
-    6. Group: `Go-Swagger` generated server code review
-    7. Individual / Pairs: Install go-swagger, validate your Swagger spec, check out the generated docs, then generate your swagger code.
+    3. Group: `Go-Swagger` review (overview / usage)
+    4. Group: `Go-Swagger` generated server code review
+    5. Individual / Pairs: Install go-swagger, validate your Swagger spec, check out the generated docs, then generate your swagger code.
     6. Group: Review our stub handler.
     7. Group: Review how to run our code locally.
-    7. Individual / Pairs: Test run your SimpleDev server and cURL against our stub Deposit route.
-6. TAQUITO Work
-    7. Group: Review Localstack (how to run, why, interacting with DynamoDB there)
-    7. Individual / Pairs: Run localstack and make your DynamoDB resources.
-    8. Group: Review TAQUITO main.go / server.go
-    7. Group: Review TAQUITO full Handlers.
-    7. Group: Review TAQUITO internal services.
-    7. Group: Review TAQUITO validators & dataUtils / hard data problems.
+    8. Individual / Pairs: Test run your SimpleDev server and cURL against our stub Deposit route.
+3. TAQUITO Work
+    1. Group: Review Localstack (how to run, why, interacting with DynamoDB there)
+    2. Individual / Pairs: Run localstack and make your DynamoDB resources.
+    3. Group: Review TAQUITO main.go / server.go
+    4. Group: Review TAQUITO full Handlers.
+    5. Group: Review TAQUITO internal services.
+    6. Group: Review TAQUITO validators & dataUtils / hard data problems.
     7. Individual / Pairs: Spin up LocalStack with DynamoDB created
- 7. Group: Some notes on TACO development parts missing in this session.
+ 4. Group: Some notes on TACO development parts missing in this session.
 
 ## Installing Dep
 
