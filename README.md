@@ -44,6 +44,7 @@ We request that all participants bring a laptop with internet connection & moder
 
 - installed the latest, stable version (18.06.1-ce) of [Docker Community Edition](https://www.docker.com/community-edition);
 - installed latest, stable version (1.11) of [Go](https://golang.org/doc/install#install) & [set up your Go workspace](https://github.com/sul-dlss-labs/taco#go-local-development-setup).
+  - Mac/homebrew users may want to install Go with homebrew, as it is a dependency of software installed in the workshop via brew.
 - our [workshop GitHub repository](https://github.com/PenguinParadigm/samvera18apis) on your computer (with mechanism to update / pull down latest changes on Tuesday morning).
   - `mkdir -p $GOPATH/src/github.com/PenguinParadigm`
   - `cd $GOPATH/src/github.com/PenguinParadigm`
