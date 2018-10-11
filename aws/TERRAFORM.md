@@ -2,6 +2,11 @@
 
 [Terraform](https://www.terraform.io/) is a way to plan and deploy infrastructure as code.
 
+## Dependencies
+
+1. Terraform
+2. You need to manually create a key pair named "taquito"
+
 ## Prepare to run terraform
 
 ### Set variables
